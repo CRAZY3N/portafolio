@@ -1,0 +1,27 @@
+/* Skills */
+.skills{
+    padding: 2rem;
+    background: #e4f8ff;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.skills-content{}
+
+.listas{
+    padding: 2rem 0;
+    width: 100%;
+    h4{padding: 1rem 0;}
+    ul{
+        
+        margin: 0 auto;
+
+        @include tablet{
+            width: 40%;
+        }
+        li{
+            font-size: 1.5rem;
+            padding: 0.5rem 0;
+        }
+    }
+}

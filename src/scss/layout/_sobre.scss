@@ -1,0 +1,31 @@
+/* Sobre */
+.sobre{
+    padding: 2rem;
+    background: #FFFFFF;
+    width: 90%;
+    margin: 6rem auto 0 auto;
+}
+
+.sobre-content{
+    padding: 2rem 0;
+    @include tablet{
+        @include grid(2,2rem);
+    }
+}
+.sobre-img{
+    width: 80%;
+    height: 28rem;
+    margin: 0 auto;
+    background: url('../img/me.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre-info{
+    padding: 2rem 0;
+    p{  
+        margin: 1rem auto;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}

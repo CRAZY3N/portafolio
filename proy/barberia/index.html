@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babearía</title>
+    <link rel="shortcut icon" href="icon/icon.svg" type="image/x-icon">
+
+    
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/17860883e4.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body class="hidden">
+    <!-- Animation Preload  -->
+    <div id="preload" class="first">
+        <div class="lds-hourglass"></div>
+    </div>
+
+    <!-- Script Facebook -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v9.0" nonce="19HmODbX"></script>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="header_content contenedor">
+            <div class="hamb" id="hamb">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="nav" class="header__menu animate__animated animate__bounceInLeft animate__delay-1s">
+                <a href="#">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#galeria">Galería</a>
+                <a href="#">Contacto</a>
+            </nav>
+            <div class="header__body">
+                <h2 class="title text-center animate__animated animate__shakeX animate__delay-2s">Barber Style</h2>
+                <picture>
+                    <img class="animate__animated animate__swing animate__delay-2s" src="img/main.png" alt="logo">
+                </picture>
+                <p class="text-center">¡Establece tu nueva apariencia increíble con los servicios de Barbershop! Desde cortes de pelo hasta afeitados calientes, puede experimentar el mejor nivel de peluquería en el área.</p>
+            </div>
+        </div>
+        <svg class="ola" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#a86c5f" fill-opacity="1" d="M0,192L48,160C96,128,192,64,288,85.3C384,107,480,213,576,240C672,267,768,213,864,160C960,107,1056,53,1152,69.3C1248,85,1344,171,1392,213.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+    </header>
+
+        
+    <main>
+        <section id="nosotros" class="about">
+            <div class="about__content contenedor">
+                <h1 class="text-center">Sobre Nosotros</h1>
+                <div class="about__content__main">
+                    <div class="about__img grid g-2 grid-column">
+                        <picture>
+                            <img src="img/img02.jpeg" alt="">
+                        </picture>
+                        <p class="text-jus mtop-2">Somos un equipo de barberos altamente calificados dedicados a ofrecer el mejor valor. Hacemos esto proporcionando servicios de salón de alta calidad para hombres y niños, en un ambiente cálido y amigable.</p>
+                
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Sobre Nosotros -->
+
+        <section id="servicios" class="servicios">
+            <div class="contenedor">
+                <h2 class="text-center">Nuestros Servicios</h2>
+                <p class="text-cen">ofrece cortes de cabello para hombres de clase mundial, cuidado de la barba y afeitados calientes. Estos son solo algunos de los servicios por los que somos famosos.</p>
+                <div class="servicios__content grid g-m-2 g-4 grid-column">
+                    <div class="servicios__servicio servicio__01 text-center">
+                        <h4>CORTE DE BARBA</h4>
+                        <img src="icon/icon01.png" alt="Barba">
+                        <p>La barba bien recortada es un elemento imprescindible de la imagen de todo hombre.</p>
+                    </div>
+                    <div class="servicios__servicio servicio__02 text-center">
+                        <h4>CORTE DE BARBA</h4>
+                        <img src="icon/icon02.png" alt="Bigote">
+                        <p>Los bigotes también deben recortarse con regularidad.</p>
+                    </div>
+                    <div class="servicios__servicio servicio__01 text-center">
+                        <h4>CORTES DE PELO TRADICIONALES</h4>
+                        <img src="icon/icon03.png" alt="Corte Tradicional">
+                        <p>Uno de los servicios más populares que brindan nuestros barberos.</p>
+                    </div>
+                    <div class="servicios__servicio servicio__02 text-center">
+                        <h4>CORTE DE BARBA</h4>
+                        <img src="icon/icon04.png" alt="Barba">
+                        <p>Nuestros servicios de afeitado te harán lucir realmente guapo.</p>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Fin de servicios -->
+
+        <section class="galeria">
+            <h3 class="text-center">Galería</h3>
+            <div class="galeria__fotos contenedor grid g-m-2 g-4 grid-column">
+                <div class="galeria__img">
+                    <img src="img/gal01.jpg" alt="galeria">
+                </div>
+                <div class="galeria__img">
+                    <img src="img/gal02.jpg" alt="galeria">
+                </div>
+                <div class="galeria__img">
+                    <img src="img/gal03.jpg" alt="galeria">
+                </div>
+                <div class="galeria__img">
+                    <img src="img/gal04.jpg" alt="galeria">
+                </div>
+                <div class="galeria__img">
+                    <img src="img/gal05.jpg" alt="galeria">
+                </div>
+                <div class="galeria__img">
+                    <img src="img/gal06.jpg" alt="galeria">
+                </div>
+                <div class="galeria__img">
+                    <img src="img/gal07.jpg" alt="galeria">
+                </div>
+                <div class="galeria__img">
+                    <img src="img/gal08.jpg" alt="galeria">
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <div class="contenido-contacto">
+                <form action="">
+                    <h4 class="text-center">Has Cita</h4>
+                    <div class="campo grid grid-column">
+                        <label for="nombre">Nombre:</label>
+                        <input class="campo-campo" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="campo grid grid-column">
+                        <label for="tel">Teléfono:</label>
+                        <input class="campo-campo" type="tel" name="tel" id="tel" placeholder="Ingresa tu teléfono">
+                    </div>
+                    <div class="campo grid grid-column">
+                        <label for="dia">Día:</label>
+                        <input class="campo-campo" type="date" name="dia" id="dia">
+                    </div>
+                    <div class="campo grid grid-column">
+                        <label for="hora">Hora:</label>
+                        <input class="campo-campo" type="time" name="hora" id="hora">
+                    </div>
+                    <div class="campo">
+                        <input class="btn" type="submit" value="Agendar">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="contenedor grid g-3 grid-column">
+            <div class="fb-page" data-href="https://www.facebook.com/Broken-Jobs-101097258580423" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Broken-Jobs-101097258580423" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Broken-Jobs-101097258580423">Broken Jobs</a></blockquote></div>
+
+            <div class="footer__us">
+                <h3 class="text-center">Barber Style</h3>
+                <img src="img/main.png" alt="logo">
+            </div>
+
+            <div class="footer_contact">
+                <h4 class="text-center">Contactanos</h4>
+                <p class="text-center"><i class="fas fa-phone-square-alt"></i> +52 55 8535 7445</p>
+                <p class="text-center"><i class="fas fa-envelope-open-text"></i> info@brokenjobs.com.mx</p>
+                <p class="text-center"><a target="_blank" href="https://www.facebook.com/Broken-Jobs-101097258580423"><i class="fab fa-facebook-square"></i> <span>Broken Jobs</span></a></p>
+                <p class="text-center"><a target="_blank" href="https://www.instagram.com/broken__jobs/"> <i class="fab fa-instagram"></i> <span>Broken__Jobs</span></a></p>
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <!-- Scripts -->
+    
+    <!-- <script rel="preload" src="js/main.js" as="script"></script> -->
+    <script src="js/main.js"></script>
+</body>
+</html>

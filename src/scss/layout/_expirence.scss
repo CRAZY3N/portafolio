@@ -1,0 +1,28 @@
+/* expirence */
+.expirence{
+    padding: 2rem;
+    background: #FFFFFF;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.exprence-content{
+    @include tablet{
+        @include grid(2,2rem);
+    }
+}
+
+.place{
+    p{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    ul{
+        font-size: 1.6rem;
+    }
+    li{
+        padding: 0.5rem 0;
+        text-align: justify;
+    }
+}

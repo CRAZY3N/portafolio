@@ -1,0 +1,22 @@
+/* Footer */
+.footer{
+    padding: 2rem 0;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.footer-content{
+
+    p{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        span a{
+            color: #FFFFFF;
+            font-weight: 400;
+        }
+    }
+
+    @include tablet{
+        @include grid(2, 2rem);
+    }
+}
